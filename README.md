@@ -1,2 +1,2 @@
 # mySitePortfolio
-my web page
+my web page with information about me, contact details and portfolio
