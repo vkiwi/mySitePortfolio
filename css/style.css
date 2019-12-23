@@ -20,30 +20,41 @@
   background-color: grey;
 }
 
-.navbar__url{
-  color: #ffffff;
-  text-decoration: none;
-  position: relative;
-}
-
 .navbar__span{
   margin-left: 23px;
   margin-right: 23px;
   color: white;
-
 }
 
-.navbar__url:after{
+.navbar__url {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar__url:hover {
+  color: #ffc800;
+}
+
+.navbar__url:after {
   display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    background-color: #ffc800;
-    -webkit-transition: width .3s ease-in;
-    transition: width .3s ease-in;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #ffc800;
+  -webkit-transition: width .3s ease-in;
+  transition: width .3s ease-in;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.navbar__url:hover:after {
+  width: 100%;
+}
+
+.navbar__url:focus:after {
+  width: 100%;
 }
