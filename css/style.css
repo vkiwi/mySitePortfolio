@@ -9,6 +9,7 @@
   width: 96%;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .navbar-block{
@@ -118,4 +119,54 @@
 
 .header-info_social{
   margin-right: 25px;
+}
+
+.main{
+  background-color: #000;
+  color: #fff;
+}
+/*блок преимуществ*/
+.advantages{
+  height: 890px;
+  padding-top: 153px;
+}
+.block_title{ /*заголовки всех блоков*/
+  font-size: 45px;
+  margin-bottom: 100px;
+}
+.advantage{
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantage_block{
+  display: flex;
+  width: 600px;
+  margin-bottom: 100px;
+}
+.advantage_image{
+  margin-right: 40px;
+}
+.advantage_image_user{ /*изображение уже поэтому добавили внутренние отступы*/
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.advantage_block_title{
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.advantage_block_text{
+  font-size: 24px;
+  font-weight: 400;
+}
+/*блок работы*/
+.works{
+  height: 900px;
+  background-image: url(../images/backGround2.png);
+  background-size: 100% 100%;
+}
+
+/*блок мои работы*/
+.container_works{
+  padding-top: 150px;
 }

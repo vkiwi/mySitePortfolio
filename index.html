@@ -7,6 +7,7 @@
   <title>Веб-разработчик</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css"> 
 </head>
 <body>
 
@@ -14,7 +15,6 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-block">
-  
           <div class="navbar__logo">
             <img src="images/roboto.png" alt="">
           </div>
@@ -27,15 +27,12 @@
               <a href="" class="navbar__url">Работы</a>
               <span class="navbar__span">|</span>
               <a href="" class="navbar__url">Связаться</a>
-             
             </div>
           </div>
           <div class="navbar__phone">
             <img src="images/telephone.png" alt="">
             <a href="tel:+7(904)030-09-17" class="navbar__url">+7 904 030-09-17</a>
           </div>
-        
-        
         </div>
       </div>
     </nav>
@@ -64,13 +61,149 @@
 
   </header>
 
-  <main>
+  <main class="main">
+    <div class="container advantages"> 
+      <h2 class="block_title">Мои преимущества</h2>
+      <div class="advantage">
+        <div class="advantage_block">
+          <img class="advantage_image" src="images/clock.png" alt="">
+          <div class="advantage_block_text">
+            <h3 class="advantage_block_title">Соблюдаю сроки</h3>
+            <span>Сайт будет готов <br>к установленной дате</span>
+          </div>
+        </div>
+        <div class="advantage_block">
+          <img class="advantage_image" src="images/tablet.png" alt="">
+          <div class="advantage_block_text">
+            <h3 class="advantage_block_title">Адаптивная вёрстка</h3 class="advantage_block_title">
+            <span>Будет хорошо отображаться <br>и на компьютерах и на телефонах</span>
+          </div>
+        </div>
+        <div class="advantage_block">
+          <img class="advantage_image" src="images/gift.png" alt="">
+          <div class="advantage_block_text">
+            <h3 class="advantage_block_title">Хостинг в подарок</h3 class="advantage_block_title">
+            <span>Расположу сайт в интернете <br>и оплачу первый год</span>
+          </div>
+        </div>
+        <div class="advantage_block">
+          <img class="advantage_image advantage_image_user" src="images/user.png" alt="">
+          <div class="advantage_block_text">
+            <h3 class="advantage_block_title">Поддержка сайта</h3 class="advantage_block_title">
+            <span>Дальнейшее сопровождение <br>и доработка проекта</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="works">
+      <div class="container container_works">
+        <h2 class="block_title">Мои работы</h2>
+
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+              <div class="slider__item slider__item_1">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img class="slider__item_photo" src="images/work1.png" alt="">
+                  </span>
+                  <div class="slider__item_testimonial">
+                    <h3 class="works_header">Дипломная работа на курсе <br>Веб-старт 3.0</h3>
+                    <div class="works_container">
+                      <div class="works_item">
+                        <img class="works_item_image works_item_image_hour" src="images/hour.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Сроки</h4>
+                          <span class="works_text">5 рабочих дней</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/money.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Стоимость</h4>
+                          <span class="works_text">Бесплатно</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/paper.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Описание</h4>
+                          <span class="works_text">Вёрстка сайта по готовому дизайн-макету<br>
+                          Меню навигации,  форма обратной связи,<br> 
+                          модальное окно, слайдеры, карта,<br>
+                          сайт адаптивный, загрузка на хостинг</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/fying.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Ссылка</h4>
+                          <span class="works_text">http://viktor33.ru/heatingPlumbing/src/</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item slider__item_2">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img src="/examples/images/photo-2.jpg" alt="">
+                  </span>
+                  <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Lawanda Batchelder</span>
+                    <span class="slider__item_post">Web Designer</span>
+                    <span class="slider__item_text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="slider__item slider__item_3">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img src="/examples/images/photo-3.jpg" alt="">
+                  </span>
+                  <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Bennett Arbogast</span>
+                    <span class="slider__item_post">Web Developer</span>
+                    <span class="slider__item_text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="slider__item slider__item_4">
+                <div class="slider__item_inner">
+                  <span class="slider__item_img">
+                    <img src="/examples/images/photo-4.jpg" alt="">
+                  </span>
+                  <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Shanna Parcell</span>
+                    <span class="slider__item_post">Web Designer</span>
+                    <span class="slider__item_text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="slider__control slider__control_prev" href="#" role="button"></a>
+          <a class="slider__control slider__control_next" href="#" role="button"></a>
+        </div>
+
+      </div>
+    </div>
   </main>
 
   <footer>
 
   </footer>
   
+  <script async src="js/slider.js"></script>
+
 </body>
 </html>
