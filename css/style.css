@@ -128,7 +128,7 @@
 /*блок преимуществ*/
 .advantages{
   height: 890px;
-  padding-top: 153px;
+  padding-top: 150px;
 }
 .block_title{ /*заголовки всех блоков*/
   font-size: 45px;
@@ -146,7 +146,7 @@
 .advantage_image{
   margin-right: 40px;
 }
-.advantage_image_user{ /*изображение уже поэтому добавили внутренние отступы*/
+.advantage_image_user{ /*изображение Уже, поэтому добавили внутренние отступы*/
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -165,8 +165,20 @@
   background-image: url(../images/backGround2.png);
   background-size: 100% 100%;
 }
-
-/*блок мои работы*/
 .container_works{
   padding-top: 150px;
+}
+
+/*блок обратной связи*/
+.container_call{
+  padding-top: 150px;
+}
+.call{
+  height: 890px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.call_form{
+  padding: 80px;
+  background: url(../images/backGround2.png);
 }
