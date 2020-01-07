@@ -98,7 +98,7 @@
 
     <div class="works">
       <div class="container container_works">
-        <h2 class="block_title">Мои работы</h2>
+        <h2 class="block_title works_title">Мои работы</h2>
 
         <div class="slider">
           <div class="slider__wrapper">
@@ -215,16 +215,16 @@
             </div>
             <div class="call_text_socials">
               <a href=""><img src="images/vk.png" alt=""></a>
-              <a href=""><img src="images/whatsapp.png" alt=""></a>
+              <a href="" class="call_text_socials_middle"><img src="images/whatsapp.png" alt=""></a>
               <a href=""><img src="images/viber.png" alt=""></a>
             </div>
         </div>
         <div class="call_form">
           <form action="mail.php" method="post">
-            <input type="text" placeholder="Имя">
-            <input type="text">
-            <input type="text">
-            <button></button>
+            <input class="call_form_input" type="text" placeholder="Имя">
+            <input class="call_form_input" type="text" placeholder="Номер телефона">
+            <input class="call_form_input call_form_input_height" type="text" placeholder="Сообщение">
+            <button class="call_form_button">Отправить</button>
           </form>
         </div>
       </div>
@@ -233,7 +233,13 @@
   </main>
 
   <footer>
-
+    
+      <div class="footer">
+        <div class="container">
+          <span class="footer_text">г. Владимир 2020</span>
+        </div>
+      </div>
+    
   </footer>
   
   <script async src="js/slider.js"></script>

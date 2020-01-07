@@ -159,8 +159,8 @@
 
     .slider__item_inner {
       position: absolute;
-      left: 6%;
-      right: 6%;
+      left: 4%;
+     /* right: 6%;*/
       top: 36px;
       bottom: 36px;
       overflow: hidden;

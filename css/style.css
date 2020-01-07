@@ -5,8 +5,8 @@
 .container{
   /* border: 1px solid red; */
   /* height: 50px; */
-  max-width: 1280px;
-  width: 96%;
+  max-width: 1200px;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 
@@ -127,12 +127,12 @@
 }
 /*блок преимуществ*/
 .advantages{
-  height: 890px;
+  height: 760px;
   padding-top: 150px;
 }
 .block_title{ /*заголовки всех блоков*/
   font-size: 45px;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 .advantage{
   display: flex;
@@ -168,17 +168,82 @@
 .container_works{
   padding-top: 150px;
 }
+.works_title{
+  margin-bottom: 00px;
+}
 
 /*блок обратной связи*/
 .container_call{
   padding-top: 150px;
+  height: 900px;
 }
 .call{
-  height: 890px;
+  /*height: 890px;*/
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.call_text{
+  font-size: 24px;
+  font-weight: 400;
 }
 .call_form{
-  padding: 80px;
+  padding: 60px;
   background: url(../images/backGround2.png);
+  width: 520px;
+  height: 500px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.call_text_phone{
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+.call_text_mail{
+  margin-bottom: 35px;
+}
+.call_text_socials_middle{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.call_form_input{
+  width: 393px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.call_form_input_height{
+  height: 140px;
+}
+.call_form_button{
+  width: 393px;
+  height: 53px;
+  box-shadow: 8px 9px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  background-image: linear-gradient( #ffd24d 0%, rgb(138, 103, 0) 100%);
+  border: 0;
+  margin-top: 35px;
+}
+
+/*подвал*/
+.footer{
+  height: 180px;
+  background-image: url(../images/backGround2.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+.footer_text{
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 45%;
+  top: 50%;
 }
