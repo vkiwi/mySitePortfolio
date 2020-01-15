@@ -6,7 +6,7 @@
   /* border: 1px solid red; */
   /* height: 50px; */
   max-width: 1200px;
-  width: 95%;
+  width: 93%;
   margin-left: auto;
   margin-right: auto;
 
@@ -140,7 +140,7 @@
 }
 .advantage_block{
   display: flex;
-  width: 600px;
+  width: 560px;
   margin-bottom: 100px;
 }
 .advantage_image{
@@ -178,7 +178,7 @@
   height: 900px;
 }
 .call{
-  /*height: 890px;*/git
+  /*height: 890px;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
