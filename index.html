@@ -220,10 +220,10 @@
             </div>
         </div>
         <div class="call_form">
-          <form action="mail.php" method="post">
-            <input class="call_form_input" name="user_name" type="text" placeholder="Имя">
-            <input class="call_form_input" name="user_phone" type="text" placeholder="Номер телефона">
-            <input class="call_form_input call_form_input_height" name="user_message" type="text" placeholder="Сообщение">
+          <form action="mail.php" method="POST" id="callform">
+            <input class="call_form_input" required name="user_name" type="text" placeholder="Имя">
+            <input class="call_form_input" required name="user_phone" type="text" placeholder="Номер телефона">
+            <input class="call_form_input call_form_input_height" required name="user_message" type="text" placeholder="Сообщение">
             <button class="call_form_button">Отправить</button>
           </form>
         </div>
@@ -241,8 +241,21 @@
       </div>
     
   </footer>
-  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  </script>
   <script async src="js/slider.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script>
+  
+    $(document).ready(function() {
+      $("#callform").validate({
+
+    });
+    });
+  </script>
 
 </body>
 </html>
