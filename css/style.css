@@ -247,3 +247,45 @@ a{
   left: 45%;
   top: 50%;
 }
+
+@media (max-width: 1270px) {
+.slider__item_testimonial {
+  margin-left: 30px;
+}
+.works_text {
+  margin-right: 20px;
+}
+}
+
+@media (max-width: 1210px) {
+  .advantage_block {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .works_text{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1136px) {
+  .works_header {
+    font-size: 25px;
+  }
+  .works_h {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .works_header{
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 1102px) {
+  .slider__item_testimonial {
+    margin-left: 10px;
+  }
+}
