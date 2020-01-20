@@ -289,3 +289,26 @@ a{
     margin-left: 10px;
   }
 }
+@media (min-width: 1207px) {
+  .works_header {
+    width: 427px;
+  }
+}
+
+@media (max-width: 1078px) {
+  .slider__item_inner {
+    flex-direction: column-reverse;
+  }
+  .slider__item {
+    height: 830px;
+  }
+  .works_item {
+    width: 400px;
+  }
+.container_works {
+  padding-top: 85px;
+  }
+.works {
+  height: 1010px;
+  }
+}
