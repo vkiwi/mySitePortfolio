@@ -184,7 +184,9 @@
       text-align: center;
 
     }
-
+    .slider__item_testimonial {
+      text-align: left;
+    }
     @media (min-width: 576px) {
       .slider__item {
         height: 600px;
@@ -203,9 +205,7 @@
         /*max-width: 150px;*/
       }
 
-      .slider__item_testimonial {
-        text-align: left;
-      }
+   
     }
 
     .slider__item_name {
