@@ -311,4 +311,68 @@ a{
 .works {
   height: 1010px;
   }
+.advantage_block {
+    width: 475px;
+}
+}
+
+@media (max-width: 1021px) {
+.advantage_image {
+    width: 60px;
+    height: 60px;
+}
+.advantage_block {
+  width: 445px;
+}
+.advantages {
+  height: 670px;
+}
+}
+
+@media (max-width: 957px) {
+  .advantage_block {
+    width: 410px;
+}
+.advantage_image {
+  margin-right: 25px;
+}
+}
+
+@media (max-width: 908px) {
+  .works_item {
+    width: 360px;
+}
+}
+
+@media (max-width: 882px) {
+  .advantage_block {
+    width: 375px;
+}
+.advantage_block_text {
+  font-size: 19px;
+}
+.advantage_block_title {
+  font-size: 27px;
+}
+}
+
+@media (max-width: 818px) {
+.works_item_image {
+    margin-right: 11px;
+}
+.works_item {
+  width: 350px;
+}
+.advantage_block {
+  width: 358px;
+}
+.advantage_block {
+  margin-bottom: 70px;
+}
+}
+
+@media (max-width: 818px) {
+.works_item {
+  width: 340px;
+}
 }
