@@ -315,6 +315,26 @@ a{
     width: 475px;
 }
 }
+@media (max-width: 1033px) {
+  .call_form {
+    padding: 25px;
+    width: 440px;
+    height: 450px;
+}
+.block_title {
+  font-size: 45px;
+  margin-bottom: 65px;
+}
+.container_call {
+  padding-top: 92px;
+}
+.works {
+  height: 1060px;
+}
+.container_call {
+  height: 750px;
+}
+}
 
 @media (max-width: 1021px) {
 .advantage_image {
@@ -339,6 +359,21 @@ a{
 .navbar__span {
   margin-left: 10px;
   margin-right: 10px;
+}
+}
+
+@media (max-width: 947px) {
+.call_form {
+    padding: 25px;
+    width: 355px;
+    height: 445px;
+}
+.call_form_input {
+  width: 300px;
+}
+.call_form_button {
+  width: 300px;
+}
 }
 
 @media (max-width: 908px) {
@@ -377,6 +412,16 @@ a{
 }
 .navbar__menu{
   display: none;
+}
+}
+
+@media (max-width: 855px) {
+.call_text {
+    font-size: 19px;
+}
+.call_text_phone {
+  margin-top: 50px;
+  margin-bottom: 35px;
 }
 }
 
@@ -425,6 +470,25 @@ a{
 .header-info_paragraph {
   font-size: 20px;
 }
+.call_form_input {
+  width: 230px;
+  height: 40px;
+}
+.call_form_input_height {
+  height: 102px;
+}
+.call_form_button {
+  width: 230px;
+  margin-top: 18px;
+}
+.call_form {
+  padding: 25px;
+  width: 280px;
+  height: 373px;
+}
+.container_call {
+  height: 640px;
+}
 }
 
 @media (max-width: 699px){
@@ -439,5 +503,65 @@ a{
 @media (max-width: 680px){
 .header-photo{
   display: none;
+}
+.call_text {
+  font-size: 19px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container_call {
+  padding-top: 55px;
+}
+.call_form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 30px;
+  width: 455px;
+  height: 440px;
+}
+.call_form_input {
+  width: 393px;
+  height: 50px;
+}
+.call_form_button {
+  width: 393px;
+}
+.call_form_input_height {
+  height: 140px;
+}
+.container_call {
+  height: 905px;
+}
+.footer_text {
+  left: 39%;
+  top: 45%;
+}
+}
+
+@media (max-width: 475px){
+.call_form {
+  padding: 30px;
+  width: 85%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.call_form_input {
+  width: 99%;
+}
+.call_form_button {
+  width: 99%;
+}
+.works_title {
+  margin-bottom: -25px;
+}
+}
+
+@media (max-width: 380px){
+.works {
+  height: 1050px;
+}
+.advantages {
+  height: 695px;
 }
 }
