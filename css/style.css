@@ -106,6 +106,7 @@
   line-height: 29.08px;
 }
 
+/*кнопка СВЯЗАТЬСЯ */
 .header-info_button{
   width: 198px;
   height: 53px;
@@ -115,10 +116,21 @@
   margin-top: 50px;
   margin-bottom: 30px;
   border: 0;
+  font-size: large;
+}
+.header-info_button:hover{
+  background-image: linear-gradient( #ffebaf 0%, rgb(173, 145, 58) 100%);
 }
 
+/*кнопки соц. сетей */
 .header-info_social{
   margin-right: 25px;
+}
+.scale {
+  transition: 0.5s; /* Время эффекта */
+}
+.scale:hover {
+  transform: scale(1.5); /* Увеличиваем масштаб */
 }
 
 .main{
@@ -564,4 +576,13 @@ a{
 .advantages {
   height: 695px;
 }
+}
+
+/*ошибка заполнения форм */
+#user_name-error, #user_phone-error, #user_message-error {
+  color: red;
+    top: -53px;
+    position: relative;
+    left: 230px;
+    font-weight: bold;
 }
