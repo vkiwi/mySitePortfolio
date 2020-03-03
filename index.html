@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <header class="header">
+  <header id="menu" class="header">
     <nav class="navbar">
       <div class="container">
         <div class="navbar-block">
@@ -22,13 +22,13 @@
           </div>
           <div class="navbar__menu">
             <div class="navbar__urls">
-              <a href="" class="navbar__url">Обо мне</a>
+              <a href="#aboutMe" class="navbar__url">Обо мне</a>
               <span class="navbar__span">|</span>
-              <a href="" class="navbar__url">Преимущества</a>
+              <a href="#advantages" class="navbar__url">Преимущества</a>
               <span class="navbar__span">|</span>
-              <a href="" class="navbar__url">Работы</a>
+              <a href="#works" class="navbar__url">Работы</a>
               <span class="navbar__span">|</span>
-              <a href="" class="navbar__url">Связаться</a>
+              <a href="#call" class="navbar__url">Связаться</a>
             </div>
           </div>
           <div class="navbar__phone">
@@ -43,17 +43,19 @@
       <div class="header-block">
         <div class="header-info">
           <img class="header-info_circle" src="images/circle.png" alt="">
-          <h3 class="header-info_subtitle">Виктор Кочегаров</h3>
+          <h3 id="aboutMe" class="header-info_subtitle">Виктор Кочегаров</h3>
           <h1 class="header-info_title">Веб-разрабочик</h1>
           <div class="header-info_paragraph">Если Вам нужен сайт, я готов его сделать<br>
             Я создаю сайты для малого и среднего бизнеса<br>
             сайты-визитки, одностраничные сайты, сайты-портфолио
           </div>
-          <button class="header-info_button">Заказать звонок</button>
+          <a href="#call">
+            <button class="header-info_button">Заказать звонок</button>
+          </a>
           <div class="header-info_socials">
-            <a href=""><img src="images/vk.png" alt="vk" class="header-info_social scale"></a>
-            <a href=""><img src="images/viber.png" alt="viber" class="header-info_social scale"></a>
-            <a href=""><img src="images/whatsapp.png" alt="whatsapp" class="scale"></a>
+            <a href="https://vk.com/vitya_kv"><img src="images/vk.png" alt="vk" class="header-info_social scale"></a>
+            <a href="https://viber.click/79040300917"><img src="images/viber.png" alt="viber" class="header-info_social scale"></a>
+            <a href="https://wa.me/79040300917"><img src="images/whatsapp.png" alt="whatsapp" class="scale"></a>
           </div>
         </div>
         <div class="header-photo">
@@ -65,7 +67,7 @@
   </header>
 
   <main class="main">
-    <div class="container advantages"> 
+    <div id="advantages" class="container advantages"> 
       <h2 class="block_title">Мои преимущества</h2>
       <div class="advantage">
         <div class="advantage_block">
@@ -100,7 +102,7 @@
     </div>
 
     <div class="works">
-      <div class="container container_works">
+      <div id="works" class="container container_works">
         <h2 class="block_title works_title">Мои работы</h2>
 
         <div class="slider">
@@ -142,7 +144,7 @@
                         <img class="works_item_image" src="images/fying.png" alt="" class="works_img">
                         <div class="works_item_text">
                           <h4 class="works_h">Ссылка</h4>
-                          <span class="works_text"><a class="none" href="https://vkiwi.github.io/heatingPlumbing/src/">https://vkiwi.github.io/heatingPlumbing/</a></span>
+                          <span class="works_text"><a class="none" href="https://vkiwi.github.io/heatingPlumbing/src/">https://vkiwi.github.io/heatingPlumbing</a></span>
                         </div>
                       </div>
                     </div>
@@ -150,46 +152,132 @@
                   </div>
                 </div>
               </div>
-              <div class="slider__item slider__item_2">
+              <div class="slider__item slider__item_1">
                 <div class="slider__item_inner">
                   <span class="slider__item_img">
-                    <img src="/examples/images/photo-2.jpg" alt="">
+                    <img class="slider__item_photo" src="images/work2.png" alt="">
                   </span>
-                  <span class="slider__item_testimonial">
-                    <span class="slider__item_name">Lawanda Batchelder</span>
-                    <span class="slider__item_post">Web Designer</span>
-                    <span class="slider__item_text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
-                    </span>
-                  </span>
+                  <div class="slider__item_testimonial">
+                    <h3 class="works_header">Учебная работа на курсе Веб-старт 3.0</h3>
+                    <div class="works_container">
+                      <div class="works_item">
+                        <img class="works_item_image works_item_image_hour" src="images/hour.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Сроки</h4>
+                          <span class="works_text">10 рабочих дней</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/money.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Стоимость</h4>
+                          <span class="works_text">Бесплатно</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/paper.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Описание</h4>
+                          <span class="works_text">Вёрстка сайта по готовому дизайн-макету<br>
+                          Меню навигации,  форма обратной связи,<br> 
+                          модальное окно, слайдеры, карта,<br>
+                          сайт адаптивный.</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/fying.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Ссылка</h4>
+                          <span class="works_text"><a class="none" href="https://vkiwi.github.io/repair/src/">https://vkiwi.github.io/repair</a></span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
               </div>
-              <div class="slider__item slider__item_3">
+              <div class="slider__item slider__item_1">
                 <div class="slider__item_inner">
                   <span class="slider__item_img">
-                    <img src="/examples/images/photo-3.jpg" alt="">
+                    <img class="slider__item_photo" src="images/work3.png" alt="">
                   </span>
-                  <span class="slider__item_testimonial">
-                    <span class="slider__item_name">Bennett Arbogast</span>
-                    <span class="slider__item_post">Web Developer</span>
-                    <span class="slider__item_text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
-                    </span>
-                  </span>
+                  <div class="slider__item_testimonial">
+                    <h3 class="works_header">Мой сайт портолио</h3>
+                    <div class="works_container">
+                      <div class="works_item">
+                        <img class="works_item_image works_item_image_hour" src="images/hour.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Сроки</h4>
+                          <span class="works_text">25 рабочих дней</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/money.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Стоимость</h4>
+                          <span class="works_text">Бесплатно</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/paper.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Описание</h4>
+                          <span class="works_text">Разработка дизайна, вёрстка сайта,<br> 
+                            слайдер, обратная связь, адаптивность.</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/fying.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Ссылка</h4>
+                          <span class="works_text"><a class="none" href="https://vkiwi.github.io/mySitePortfolio/">https://vkiwi.github.io/mySitePortfolio</a></span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
               </div>
-              <div class="slider__item slider__item_4">
+              <div class="slider__item slider__item_1">
                 <div class="slider__item_inner">
                   <span class="slider__item_img">
-                    <img src="/examples/images/photo-4.jpg" alt="">
+                    <img class="slider__item_photo" src="images/work4.png" alt="">
                   </span>
-                  <span class="slider__item_testimonial">
-                    <span class="slider__item_name">Shanna Parcell</span>
-                    <span class="slider__item_post">Web Designer</span>
-                    <span class="slider__item_text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
-                    </span>
-                  </span>
+                  <div class="slider__item_testimonial">
+                    <h3 class="works_header">Сайт для мастера компьютерной помощи</h3>
+                    <div class="works_container">
+                      <div class="works_item">
+                        <img class="works_item_image works_item_image_hour" src="images/hour.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Сроки</h4>
+                          <span class="works_text">11 рабочих дней</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/money.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Стоимость</h4>
+                          <span class="works_text">Бесплатно</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/paper.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Описание</h4>
+                          <span class="works_text">Разработка дизайна, вёрстка сайта,<br>
+                          сайт адаптивный.</span>
+                        </div>
+                      </div>
+                      <div class="works_item">
+                        <img class="works_item_image" src="images/fying.png" alt="" class="works_img">
+                        <div class="works_item_text">
+                          <h4 class="works_h">Ссылка</h4>
+                          <span class="works_text"><a class="none" href="https://vkiwi.github.io/komp33/">https://vkiwi.github.io/komp33</a></span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -201,7 +289,7 @@
       </div>
     </div>
 
-    <div class="container container_call">
+    <div id="call" class="container container_call">
       <h2 class="block_title">Связаться</h2>
       <div class="call">
         <div class="call_text">
@@ -217,9 +305,9 @@
               <a class="navbar__url" href="mailto:viktor.kochegarov@gmail.com">viktor.kochegarov@gmail.com</a>
             </div>
             <div class="call_text_socials">
-              <a href=""><img class="scale" src="images/vk.png" alt=""></a>
-              <a href="" class="call_text_socials_middle"><img class="scale" src="images/whatsapp.png" alt=""></a>
-              <a href=""><img class="scale" src="images/viber.png" alt=""></a>
+              <a href="https://vk.com/vitya_kv"><img class="scale" src="images/vk.png" alt=""></a>
+              <a href="https://viber.click/79040300917" class="call_text_socials_middle"><img class="scale" src="images/viber.png" alt=""></a>
+              <a href="https://wa.me/79040300917"><img class="scale" src="images/whatsapp.png" alt=""></a>
             </div>
         </div>
         <div class="call_form">
@@ -249,6 +337,7 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
   </script>
+  <script async src="js/main.js"></script>
   <script async src="js/slider.js"></script>
   <script src="js/jquery.validate.js"></script>
   <script>
