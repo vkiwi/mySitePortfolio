@@ -42,6 +42,7 @@
     <div class="container">
       <div class="header-block">
         <div class="header-info">
+          <img class="header-info_circle" src="images/circle.png" alt="">
           <h3 class="header-info_subtitle">Виктор Кочегаров</h3>
           <h1 class="header-info_title">Веб-разрабочик</h1>
           <div class="header-info_paragraph">Если Вам нужен сайт, я готов его сделать<br>
@@ -134,14 +135,14 @@
                           <span class="works_text">Вёрстка сайта по готовому дизайн-макету<br>
                           Меню навигации,  форма обратной связи,<br> 
                           модальное окно, слайдеры, карта,<br>
-                          сайт адаптивный, загрузка на хостинг</span>
+                          сайт адаптивный.</span>
                         </div>
                       </div>
                       <div class="works_item">
                         <img class="works_item_image" src="images/fying.png" alt="" class="works_img">
                         <div class="works_item_text">
                           <h4 class="works_h">Ссылка</h4>
-                          <span class="works_text">http://viktor33.ru/heatingPlumbing/src/</span>
+                          <span class="works_text"><a class="none" href="https://vkiwi.github.io/heatingPlumbing/src/">https://vkiwi.github.io/heatingPlumbing/</a></span>
                         </div>
                       </div>
                     </div>
@@ -216,16 +217,16 @@
               <a class="navbar__url" href="mailto:viktor.kochegarov@gmail.com">viktor.kochegarov@gmail.com</a>
             </div>
             <div class="call_text_socials">
-              <a href=""><img src="images/vk.png" alt=""></a>
-              <a href="" class="call_text_socials_middle"><img src="images/whatsapp.png" alt=""></a>
-              <a href=""><img src="images/viber.png" alt=""></a>
+              <a href=""><img class="scale" src="images/vk.png" alt=""></a>
+              <a href="" class="call_text_socials_middle"><img class="scale" src="images/whatsapp.png" alt=""></a>
+              <a href=""><img class="scale" src="images/viber.png" alt=""></a>
             </div>
         </div>
         <div class="call_form">
           <form action="mail.php" method="POST" id="callform">
             <input class="call_form_input" required name="user_name" type="text" placeholder="Имя">
             <input class="call_form_input" required name="user_phone" type="text" placeholder="Номер телефона">
-            <input class="call_form_input call_form_input_height" required name="user_message" type="text" placeholder="Сообщение">
+            <textarea class="call_form_input call_form_input_height" required name="user_message" type="text" placeholder="Сообщение"></textarea>
             <button class="call_form_button">Отправить</button>
           </form>
         </div>
