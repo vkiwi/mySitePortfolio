@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet")
+}
+
 .container{
   max-width: 1200px;
   width: 93%;
@@ -67,7 +72,7 @@
 .header{
   border: 1px solid black;
   height: 910px;
-  background-image: url(../images/backGround.png);
+  background: #222 url(../images/backGround.png);
   background-size: 100% 100%;
 }
 
