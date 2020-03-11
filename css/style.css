@@ -484,7 +484,7 @@ a{
   height: 640px;
 }
 .advantages {
-  padding-top: 75px;
+  padding-top: 35px;
 }
 .block_title {
   margin-bottom: 40px;
@@ -587,7 +587,7 @@ a{
 @media (max-width: 475px){
 .call_form {
   padding: 30px;
-  width: 85%;
+  width: 100%;
   margin-left: 0;
   margin-right: 0;
 }
@@ -607,7 +607,16 @@ a{
   height: 1050px;
 }
 .advantages {
-  height: 695px;
+  height: 800px;
+}
+.header-block{
+  margin-top: 0;
+}
+.container_works {
+  padding-top: 48px;
+}
+.footer_text {
+  left: 26%;
 }
 }
 
