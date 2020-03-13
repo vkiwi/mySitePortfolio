@@ -252,6 +252,7 @@ a{
 .call_form_input_height{
   height: 140px;
   padding-top: 10px;
+  resize: none;
 }
 .call_form_button{
   width: 393px;
