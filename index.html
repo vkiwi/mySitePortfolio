@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="css/reset.css">
   
   <link rel="stylesheet" href="css/slider.css"> 
-  <link rel="stylesheet" href="css/style.css">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -314,9 +316,14 @@
         </div>
         <div class="call_form">
           <form action="mail.php" method="POST" id="callform">
+      
             <input class="call_form_input" required name="user_name" type="text" placeholder="Имя">
             <input class="call_form_input" required name="user_phone" type="text" placeholder="Номер телефона">
             <textarea class="call_form_input call_form_input_height" required name="user_message" type="text" placeholder="Сообщение"></textarea>
+            <div class="containerr">
+              <div class="g-recaptcha" data-sitekey="6LcsdecUAAAAAFiUpMhJo4ILV1_8a8Pz4edQa8HW"></div>
+              <div class="text-danger" id="recaptchaError"></div>
+            </div>  
             <button class="call_form_button">Отправить</button>
           </form>
         </div>
